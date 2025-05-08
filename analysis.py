@@ -4,7 +4,8 @@ from matplotlib.ticker import FuncFormatter
 import os
 
 # 请用户输入要读取的子文件夹名称
-subdir_name = input("请输入要读取的子文件夹名称/Please enter the name of the subfolder you want to read：")
+#修改了其中的一部分，添加了一个感叹号！
+subdir_name = input("请输入要读取的子文件夹名称！！！/Please enter the name of the subfolder you want to read：")
 
 # 定义log文件夹的路径
 log_dir = 'log'
